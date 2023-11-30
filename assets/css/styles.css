@@ -420,11 +420,6 @@ button {
   font-family: var(--body-color);
 }
 
-i {
-  font-size: large;
-  margin-top: 1rem;
-}
-
 .title {
   display: flex;
   justify-content: center;
@@ -456,14 +451,13 @@ i {
   display: flex;
   flex-direction: column;
   align-items: let;
-  width: 300px;
-  margin: 60px;
+  width: 750px;
+  margin: 30px;
   
 }
 
 .details p{
   color: #6a6a74;
-  text-align: center;
 }
 
 .details1 p{
@@ -509,12 +503,6 @@ h2{
   margin-bottom: 1rem;
 }
 
-h4 {
-  padding: 1rem;
-}
-
-
-
 .package1 {
   color: #6a6a74;
   text-align: left;
@@ -524,15 +512,42 @@ h4 {
   font-size: 20px;
 }
 
-.boxday1 {
-  width: 430px;
-  height: 860px;
+.boxpckg {
+  width: 850px;
+  height: 1060px;
   border-radius: 10px;
   box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
-  align-items: center;
   box-sizing: border-box;
   margin: 100px 0px;
   justify-content: center;
+  padding: 2rem;
+}
+
+.boxday {
+  width: 850px;
+  height: 1060px;
+  border-radius: 10px;
+  box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 100px 0px;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.infopckg{
+  text-align: left;
+  font-size: large;
+  margin-bottom: -1.5rem;
+}
+
+.tittlebox{
+  margin-bottom: 3rem;
+}
+
+.tittlepckg{
+  margin-bottom: -3rem;
 }
