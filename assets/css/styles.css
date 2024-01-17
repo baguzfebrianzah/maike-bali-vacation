@@ -58,10 +58,15 @@ a {
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
+.container_index {
+  display: flex;
+  max-width: 1120px;
+  margin-inline: 1.5rem;
+}
+
 .container {
   display: flex;
   justify-content: center;
-  
   max-width: 1120px;
   margin-inline: 1.5rem;
 }
@@ -345,6 +350,7 @@ a {
   max-width: 48rem;
   margin: 0 auto;
   padding: auto;
+  padding-top: auto;
 }
 
 .slider{
@@ -387,7 +393,6 @@ a {
 .title_about {
   padding: 0.5rem;
   display: block;
-  text-align: center;
   margin: 2rem;
 }
 
@@ -418,7 +423,6 @@ button {
   font-weight: bold;
   color: #fff;
   font-family: var(--body-color);
-  margin-bottom: auto;
 }
 
 .title {
@@ -443,7 +447,7 @@ button {
 /*---CAR STANDAR---*/
 .boxstd {
   width: 450px;
-  height: 500px;
+  height: 600px;
   border-radius: 10px;
   box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
   display: flex;
@@ -505,7 +509,7 @@ h2{
   flex-direction: column;
   justify-content: center;
   position: relative;
-  align-items: center;
+  
 }
 
 .package {
@@ -677,5 +681,20 @@ h2{
   margin: 100px 0px;
   justify-content: center;
   width: 450px;
-  
+}
+
+i:link {
+  color: var(--black-color-light);
+}
+
+i:hover {
+  color: var(--black-color-light);
+}
+
+i:visited {
+  color: var(--black-color-light);
+}
+
+.logo {
+  padding-top: 1rem;
 }
